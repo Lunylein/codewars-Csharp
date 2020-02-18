@@ -67,16 +67,7 @@ namespace Codewars
                         if (!skipLoop)
                         {
                             int tmp = -1;
-                            try
-                            {
-                                tmp = loopPointer.Pop();
-
-                            }
-                            catch (Exception e)
-                            {
-                                return "";
-                            }
-
+                             tmp = loopPointer.Pop();
                             if (data[head] != 0)
                             {
                                 i = tmp - 1;
