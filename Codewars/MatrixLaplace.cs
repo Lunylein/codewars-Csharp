@@ -58,7 +58,7 @@ namespace Codewars
 
             Console.WriteLine("-------------------------------------------------");
         }
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             Console.WriteLine(MatrixLaplace.Determinant(new int[][] { new[] { 2 ,  -3  ,  0   , 5 ,-10 ,  8 , -1 ,  9 , -7 , -8},
 new[] { 5 ,  -2  , 10  , -9 , -8 , -8 ,-10 , -6 , -6 , -2},
